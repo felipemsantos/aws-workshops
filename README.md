@@ -14,4 +14,19 @@ Hello and welcome to the AWS Hands-on labs. Before start there are some steps to
         Download and run the [64-bit](https://s3.amazonaws.com/aws-cli/AWSCLI64.msi) or 
         [32-bit](https://s3.amazonaws.com/aws-cli/AWSCLI32.msi) Windows installer
         
-      For more information https://aws.amazon.com/cli/ 
+      For more information https://aws.amazon.com/cli/
+      
+1. Install Git
+
+    Sometimes will be easier if you just clone this repo, instead of copying the files. 
+    Having the git installed is not a mandatory requisite, but it may help you.
+
+    Download and install here: https://git-scm.com/downloads You can have more information 
+    about git here: https://git-scm.com/book/en/v1/Getting-Started
+      
+1. If you are using a Windows machine...
+
+We strongly recommend you to spin up a Linux EC2 instance. None of these labs were even 
+tested in Windows environments.
+
+1. 
