@@ -1,16 +1,16 @@
 # Workshop Labs
 
-    * [AWS Identity and Access Management (IAM)](http://#)
-    * [Amazon Elastic Cloud Computing (Amazon EC2)](http://#)
-    * [Elastic Load Balancing (ELB)](http://#)
-    * [Amazon EC2 Auto Scaling](http://#)
-    * [Amazon Elastic Block Store (Amazon EBS)](http://#)
-    * [Amazon Simple Storage Service (Amazon S3)](http://#)
-    * [Amazon Virtual Private Cloud (Amazon VPC)](http://#)
-    * [Amazon DynamoDB](http://#)
-    * [Amazon ElastiCache](http://#)
-    * [AWS CloudFormation](http://#)
-    * [AWS Lambda](http://#)
+* [AWS Identity and Access Management (IAM)](http://#)
+* [Amazon Elastic Cloud Computing (Amazon EC2)](http://#)
+* [Elastic Load Balancing (ELB)](http://#)
+* [Amazon EC2 Auto Scaling](http://#)
+* [Amazon Elastic Block Store (Amazon EBS)](http://#)
+* [Amazon Simple Storage Service (Amazon S3)](http://#)
+* [Amazon Virtual Private Cloud (Amazon VPC)](http://#)
+* [Amazon DynamoDB](http://#)
+* [Amazon ElastiCache](http://#)
+* [AWS CloudFormation](http://#)
+* [AWS Lambda](http://#)
 
 ## AWS Identity and Access Management (IAM)
     ## Creating IAM Users and Groups
