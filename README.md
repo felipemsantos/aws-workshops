@@ -6,7 +6,7 @@ Hello and welcome to the AWS Hands-on labs. Before start there are some steps to
 
 https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
 
-## Let's install the AWS CLI 
+## Let"s install the AWS CLI 
 
 * For Mac and Linux users:
 
@@ -37,4 +37,4 @@ about git here: https://git-scm.com/book/en/v1/Getting-Started
 We strongly recommend you to spin up a Linux EC2 instance. None of these labs were even
 tested in Windows environments.
 
-## Now let's get our [hands dirty](./labs)
+## Now let"s get our [hands dirty](./labs)
