@@ -2,7 +2,7 @@
 
 Hello and welcome to the AWS Hands-on labs. Before start there are some steps to run:
 
-##. Set-up an AWS Account
+## Set-up an AWS Account
 
 https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
 
