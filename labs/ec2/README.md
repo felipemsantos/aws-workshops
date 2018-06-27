@@ -14,13 +14,6 @@ will walk you though successfully provisioning and starting an EC2 instance usin
 * [Create a new Key Pair](#create-a-new-key-pair)
 * [Launch a Web Server Instance](#launch-a-web-server-instance)
 * [Browse the Web Server](#browse-the-web-server)
-* [Appendix -- Additional EC2 Concepts](#appendix----additional-ec2-concepts)
-* [Change the Instance Type](#change-the-instance-type)
-* [Black Belt Booting](#black-belt-booting)
-* [Appendix B -- SSH to EC2 instances using MindTerm](#appendix-b----ssh-to-ec2-instances-using-mindterm)
-* [Appendix C -- Using a 3^rd^ Party SSH Client](#appendix-c----using-a-3^rd^-party-ssh-client)
-* [Windows (PuTTY)](#windows-(putty))
-* [Mac OS X or Linux (OpenSSH)](#mac-os-x-or-linux-(openssh))
 
 ## Create a new Key Pair
 
