@@ -42,7 +42,7 @@ bucket names in Amazon S1. One way to do that is to prefix your bucket names wit
 1. In the Region drop-down list box, select a region.
 1. Click Next. When the Set properties dialogue box appears, click the Tags box, followed by +Add tag.
 
-    ![](./images/create-bucket-name-and-region.png)
+    ![](./images/create-bucket-name-and-region.png?style=centerme)
 
 1. In the Key box, type Purpose, and in the Value box, enter Immersion Day. Then click Save, then Next.
 
@@ -156,3 +156,8 @@ Well done, your bucket is now deleted!
 In this lab you have learned the basic operations to manage the lifecycle of an S3 object. First, you created a bucket, 
 which is the logical container of objects. Then by uploading, viewing, moving an object, and enabling versioning, you 
 learned the basic operations of the object itself. Finally, you learn how to delete both an object and a bucket.
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
