@@ -8,8 +8,8 @@ store, view, move and delete objects. This lab will walk you through the followi
 * [Adding a object to the S3 bucket](#adding-a-object-to-the-s3-bucket)
 * [View the object in S3](#view-the-object-in-s3)
 * [Move the object in S3](#move-the-object-in-s3)
-* [Enable bucket versioning](#Enable-bucket-versioning)
-* [Delete the object and the bucket in S3](#Delete-the-object-and-the-bucket-in-S3)
+* [Enable bucket versioning](#enable-bucket-versioning)
+* [Delete the object and the bucket in S3](#delete-the-object-and-the-bucket-in-s3)
 
 ## Create a Bucket in S3
 
