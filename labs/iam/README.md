@@ -4,17 +4,9 @@
 
 This lab will walk you through connecting to the instance and configuring security credentials so that you can interact with the AWS APIs and command line tools. This lab will cover the following topics:
 
-* [Creating an IAM Group and adding an IAM user to the Group](#creating-an-iam-group-and-adding-an-iam-user-to-the-group)
-* [Exploring the properties of an IAM User](#exploring-the-properties-of-an-iam-user)
-* [Creating an IAM Role for EC2](#creating-an-iam-role-for-ec2)
-
-## Creating an IAM Group and adding an IAM user to the Group
-
-## Exploring the properties of an IAM User
-
-## Creating an IAM Role for EC2
-
----
+* [Creating IAM Users and Groups](#creating-iam-users-and-groups)
+* [Managing IAM User Permissions and Credentials](#managing-iam-user-permissions-and-credentials)
+* [IAM Roles for EC2](#iam-roles-for-ec2)
 
 ## Creating IAM Users and Groups
 
@@ -87,6 +79,7 @@ direct access to the AWS APIs through custom or 3rd party applications).
 <p align="center"><img src="./images/users-security-credentials-access-keys.png"/></p>
 
 ## IAM Roles for EC2
+
 Applications or Command Line Tools running on Amazon Elastic Compute Cloud (Amazon EC2) instances that make requests to 
 Amazon Web Services (AWS) must sign all AWS API requests with AWS access keys. AWS Identity and Access Management (IAM) 
 Roles for EC2 instances, is a feature that makes it easier for your applications and command line tools to securely 
