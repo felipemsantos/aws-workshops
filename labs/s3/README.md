@@ -41,9 +41,9 @@ bucket names in Amazon S1. One way to do that is to prefix your bucket names wit
     
 1. In the Region drop-down list box, select a region.
 1. Click Next. When the Set properties dialogue box appears, click the Tags box, followed by +Add tag.
-
+    <p align="center">
     ![](./images/create-bucket-name-and-region.png?style=centerme)
-
+    </p>
 1. In the Key box, type Purpose, and in the Value box, enter Immersion Day. Then click Save, then Next.
 
     ![](./images/create-bucket-tags.png)
