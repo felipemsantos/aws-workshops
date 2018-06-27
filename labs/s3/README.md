@@ -18,9 +18,9 @@ Every object in Amazon S3 is stored in a bucket. Before you can store data in Am
 > NOTE: You are not charged for creating a bucket; you are only charged for storing objects in the bucket and for 
 transferring objects in and out of the bucket. 
 
-1. Sign into the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s1.
+1. Sign into the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3.
 1. Click Create Bucket. The Create a Bucket dialog box appears.
-![](./images/create-bucket.png)
+![](./images/create-bucket.png?style=centerme)
 1. Enter a bucket name in the Bucket Name field. The bucket name you choose must be unique across all existing 
 bucket names in Amazon S1. One way to do that is to prefix your bucket names with your organisation's name.  
 
@@ -31,10 +31,12 @@ bucket names in Amazon S1. One way to do that is to prefix your bucket names wit
     * Must start with a number or letter
     * Must be between 3 and 255 characters long
     * Must not be formatted as an IP address (e.g., 261.251.1.4) 
+    
     > NOTE: There might be additional restrictions on bucket names based on the region your bucket is in or how you 
     intend to access the object. Once you create a bucket, you cannot change its name. In addition, the bucket name is 
     visible in the URL that points to the objects stored in the bucket. Make sure the bucket name you choose is 
     appropriate.
+    
 1. In the Region drop-down list box, select a region.
 1. Click Next. When the Set properties dialogue box appears, click the Tags box, followed by +Add tag.
 ![](./images/create-bucket-name-and-region.png)
@@ -68,11 +70,14 @@ Good job - you've added a file to your bucket!
 Now that you've added an object to a bucket, you can open and view it in a browser.
 1. In the Amazon S3 console, click the on the name of the object you want to open. 
 ![](./images/object-overview.png)
-> NOTE: By default your Amazon S3 buckets and objects are private. To view an object using a URL, for example, 
-https://s1.amazonaws.com/Bucket/Object the object must be publicly readable. Otherwise, you will need to create signed 
-URL that includes a signature with authentication information. You can optionally save the object locally. 
+
+    > NOTE: By default your Amazon S3 buckets and objects are private. To view an object using a URL, for example, 
+    https://s3.amazonaws.com/Bucket/Object the object must be publicly readable. Otherwise, you will need to create signed 
+    URL that includes a signature with authentication information. You can optionally save the object locally.
+ 
 1. Click on the Permissions tab. In the Manage public permissions section, click the radio button next to Everyone.
 ![](./images/object-permission.png)
+
 1. In the Everyone dialogue, under the Object access section, tick the Read box, and then click Save. 
 1. Click on the Overview tab, and then click on the link to your object at the bottom of the screen to view the file 
 using your browser.
@@ -125,3 +130,8 @@ Well done, your bucket is now deleted!
 In this lab you have learned the basic operations to manage the lifecycle of an S3 object. First, you created a bucket, 
 which is the logical container of objects. Then by uploading, viewing, moving an object, and enabling versioning, you 
 learned the basic operations of the object itself. Finally, you learn how to delete both an object and a bucket.
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
