@@ -37,4 +37,4 @@ about git here: https://git-scm.com/book/en/v1/Getting-Started
 We strongly recommend you to spin up a Linux EC2 instance. None of these labs were even
 tested in Windows environments.
 
-## Now let"s get our [hands dirty](./labs)
+## Now let's get our [hands dirty](./labs)
