@@ -2,8 +2,6 @@
 
 <p align="center"><img src="./images/logo.png"/></p>
 
-# Elastic Load Balancing (ELB)
-
 This lab will walk the user through creating an ELB to load balance traffic across several EC2 nodes in a single 
 Availability Zone.
 
