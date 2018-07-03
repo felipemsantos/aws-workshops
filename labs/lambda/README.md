@@ -59,7 +59,7 @@ aws s3 mb s3://immersion-day-lambda-<your-name>
  
     <p align="center"><img src="./images/image2.png"/></p>
 
-    Click on ![](/images/image3.png){:width="148px" height="30px"} button.
+    Click on ![button](./images/image3.png){:width="148px" height="30px"} button.
     
 1. After the function has been created, click on **Designer** section to check how the function was created.
 
