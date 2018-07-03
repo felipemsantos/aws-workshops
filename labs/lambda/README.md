@@ -112,15 +112,15 @@ aws s3 mb s3://immersion-day-lambda-<your-name>
         for rec in event['Records']:
             event_name = rec['eventName']
             bucket = rec['s3']['bucket']['name']
-            object = rec['s3']['object']['key']
+            key = rec['s3']['object']['key']
             if 'Put' in event_name:
-                put_message+='\n{}/{}'.format(bucket, object)
+                put_message+='\n{}/{}'.format(bucket, key)
             
             if 'Get' in event_name:
-                get_message+='\n{}/{}'.format(bucket, object)
+                get_message+='\n{}/{}'.format(bucket, key)
                 
             if 'Delete' in event_name:
-                delete_message+='\n{}/{}'.format(bucket, object)
+                delete_message+='\n{}/{}'.format(bucket, key)
             
         if put_message is not '': 
             sns.publish(PhoneNumber = number, Message='Put events:'+ put_message)
@@ -132,7 +132,6 @@ aws s3 mb s3://immersion-day-lambda-<your-name>
             sns.publish(PhoneNumber = number, Message='Delete events:'+delete_message)
         
         return None
- 
     ```
 
 ## Test a function
